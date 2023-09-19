@@ -3,7 +3,7 @@ import { Header } from "./components/Header/Header";
 import dotenv from 'dotenv';
 
 dotenv.config();
-const underConstruction = process.env.NEXT_PUBLIC_UNDER_CONTRUCTION;
+const underConstruction = process.env.UNDER_CONTRUCTION;
 
 export default function Home() {
   if (underConstruction === 'true') {
