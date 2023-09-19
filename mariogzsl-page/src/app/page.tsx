@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center w-5/12 h-full">
         <Header/>
         <div className="flex flex-col items-center justify-center w-full h-full">
-          Under construction... It will be ready soon! I promise!
+          Under construction... It will be ready soon! I promise!!
         </div>
         <Footer/>
       </div>
