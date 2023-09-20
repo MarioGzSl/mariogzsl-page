@@ -26,25 +26,25 @@ export function About() {
     const labels = technologies.map((technology, index) => {
         if(clouds.includes(technology)) {
             return (
-                <Label type="cloud">
+                <Label type="cloud" key={index}>
                     {technology}
                 </Label>
             );
         }else if(frameworks.includes(technology)) {
             return (
-                <Label type="framework">
+                <Label type="framework" key={index}>
                     {technology}
                 </Label>
             );
         }else if(languages.includes(technology)) {
             return (
-                <Label type="language">
+                <Label type="language" key={index}>
                     {technology}
                 </Label>
             );
         }else{
             return (
-                <Label>
+                <Label type="other" key={index}>
                     {technology}
                 </Label>
             );
