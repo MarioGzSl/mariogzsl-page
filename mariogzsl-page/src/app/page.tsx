@@ -1,3 +1,4 @@
+import { About } from "./components/About/About";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import dotenv from 'dotenv';
@@ -24,7 +25,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center w-5/12 h-full">
         <Header />
           <div className="flex flex-col items-center justify-center w-full h-full">
-            {/* My code would be here. If I had any. :'(  */}
+            <About />
           </div>
         <Footer />
       </div>
