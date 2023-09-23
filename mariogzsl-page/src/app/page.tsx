@@ -3,6 +3,8 @@ import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import dotenv from 'dotenv';
 
+import { Analytics } from '@vercel/analytics/react';
+
 dotenv.config();
 const underConstruction = process.env.UNDER_CONTRUCTION;
 
@@ -17,6 +19,7 @@ export default function Home() {
           </div>
           <Footer />
         </div>
+        <Analytics />
       </main>
     );
   }
